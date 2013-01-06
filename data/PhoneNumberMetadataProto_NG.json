@@ -1,0 +1,203 @@
+{
+	"country_code": 234,
+	"emergency": {
+		"example_number": "199",
+		"national_number_pattern": "199",
+		"possible_number_pattern": "\\d{3}"
+	},
+	"fixed_line": {
+		"example_number": "12345678",
+		"national_number_pattern": "[12]\\d{6,7}|9\\d{7}|(?:3\\d|4[023568]|5[02368]|6[02-469]|7[4-69]|8[2-9])\\d{6}|(?:4[47]|5[14579]|6[1578]|7[0-357])\\d{5,6}|(?:78|41)\\d{5}",
+		"possible_number_pattern": "\\d{5,9}"
+	},
+	"general_desc": {
+		"example_number": "",
+		"national_number_pattern": "[1-69]\\d{5,8}|[78]\\d{5,13}",
+		"possible_number_pattern": "\\d{5,14}"
+	},
+	"id": "NG",
+	"international_prefix": "009",
+	"leading_digits": "",
+	"leading_zero_possible": false,
+	"main_country_for_code": false,
+	"mobile": {
+		"example_number": "8021234567",
+		"national_number_pattern": "(?:1(?:7[34]\\d|8(?:04|[124579]\\d|8[0-3])|95\\d)|287[0-7]|3(?:18[1-8]|88[0-7]|9(?:8[5-9]|6[1-5]))|4(?:28[0-2]|6(?:7[1-9]|8[02-47])|88[0-2])|5(?:2(?:7[7-9]|8\\d)|38[1-79]|48[0-7]|68[4-7])|6(?:2(?:7[7-9]|8\\d)|4(?:3[7-9]|[68][129]|7[04-69]|9[1-8])|58[0-2]|98[7-9])|7(?:38[0-7]|69[1-8]|78[2-4])|8(?:28[3-9]|38[0-2]|4(?:2[12]|3[147-9]|5[346]|7[4-9]|8[014-689])|58[1-8]|78[2-9]|88[5-7])|98[07]\\d)\\d{4}|(?:70(?:[3-9]\\d|2[1-9])|8(?:0[2-9]|1[0235-9])\\d)\\d{6}",
+		"possible_number_pattern": "\\d{8,10}"
+	},
+	"national_prefix": "0",
+	"national_prefix_for_parsing": "0",
+	"national_prefix_transform_rule": "",
+	"no_international_dialling": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"pager": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"personal_number": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"preferred_extn_prefix": "",
+	"preferred_international_prefix": "",
+	"premium_rate": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"same_mobile_and_fixed_line_pattern": false,
+	"shared_cost": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"toll_free": {
+		"example_number": "80017591759",
+		"national_number_pattern": "800\\d{7,11}",
+		"possible_number_pattern": "\\d{10,14}"
+	},
+	"uan": {
+		"example_number": "7001234567",
+		"national_number_pattern": "700\\d{7,11}",
+		"possible_number_pattern": "\\d{10,14}"
+	},
+	"voicemail": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voip": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([129])(\\d{3})(\\d{3,4})",
+			"leading_digit_patterns": [
+				"[129]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([3-8]\\d)(\\d{3})(\\d{2,3})",
+			"leading_digit_patterns": [
+				"[3-6]|7(?:[1-79]|0[1-9])|8[2-9]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([78]\\d{2})(\\d{3})(\\d{3,4})",
+			"leading_digit_patterns": [
+				"70|8[01]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([78]00)(\\d{4})(\\d{4,5})",
+			"leading_digit_patterns": [
+				"[78]00"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([78]00)(\\d{5})(\\d{5,6})",
+			"leading_digit_patterns": [
+				"[78]00"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(78)(\\d{2})(\\d{3})",
+			"leading_digit_patterns": [
+				"78"
+			]
+		}
+	],
+	"intl_number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([129])(\\d{3})(\\d{3,4})",
+			"leading_digit_patterns": [
+				"[129]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([3-8]\\d)(\\d{3})(\\d{2,3})",
+			"leading_digit_patterns": [
+				"[3-6]|7(?:[1-79]|0[1-9])|8[2-9]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([78]\\d{2})(\\d{3})(\\d{3,4})",
+			"leading_digit_patterns": [
+				"70|8[01]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([78]00)(\\d{4})(\\d{4,5})",
+			"leading_digit_patterns": [
+				"[78]00"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([78]00)(\\d{5})(\\d{5,6})",
+			"leading_digit_patterns": [
+				"[78]00"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(78)(\\d{2})(\\d{3})",
+			"leading_digit_patterns": [
+				"78"
+			]
+		}
+	]
+}

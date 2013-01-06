@@ -1,0 +1,99 @@
+{
+	"country_code": 979,
+	"emergency": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"fixed_line": {
+		"example_number": "123456789",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"general_desc": {
+		"example_number": "123456789",
+		"national_number_pattern": "\\d{9}",
+		"possible_number_pattern": "\\d{9}"
+	},
+	"id": "001",
+	"international_prefix": "",
+	"leading_digits": "",
+	"leading_zero_possible": true,
+	"main_country_for_code": false,
+	"mobile": {
+		"example_number": "123456789",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"national_prefix": "",
+	"national_prefix_for_parsing": "",
+	"national_prefix_transform_rule": "",
+	"no_international_dialling": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"pager": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"personal_number": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"preferred_extn_prefix": "",
+	"preferred_international_prefix": "",
+	"premium_rate": {
+		"example_number": "123456789",
+		"national_number_pattern": "\\d{9}",
+		"possible_number_pattern": "\\d{9}"
+	},
+	"same_mobile_and_fixed_line_pattern": true,
+	"shared_cost": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"toll_free": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"uan": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voicemail": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voip": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(\\d)(\\d{4})(\\d{4})",
+			"leading_digit_patterns": []
+		}
+	],
+	"intl_number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(\\d)(\\d{4})(\\d{4})",
+			"leading_digit_patterns": []
+		}
+	]
+}

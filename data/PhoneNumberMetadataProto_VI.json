@@ -1,0 +1,81 @@
+{
+	"country_code": 1,
+	"emergency": {
+		"example_number": "911",
+		"national_number_pattern": "911",
+		"possible_number_pattern": "\\d{3}"
+	},
+	"fixed_line": {
+		"example_number": "3406421234",
+		"national_number_pattern": "340(?:2(?:01|2[067]|36|44|77)|3(?:32|44)|4(?:4[38]|7[34])|5(?:1[34]|55)|6(?:26|4[23]|9[023])|7(?:[17]\\d|27)|884|998)\\d{4}",
+		"possible_number_pattern": "\\d{7}(?:\\d{3})?"
+	},
+	"general_desc": {
+		"example_number": "",
+		"national_number_pattern": "[3589]\\d{9}",
+		"possible_number_pattern": "\\d{7}(?:\\d{3})?"
+	},
+	"id": "VI",
+	"international_prefix": "011",
+	"leading_digits": "340",
+	"leading_zero_possible": false,
+	"main_country_for_code": false,
+	"mobile": {
+		"example_number": "3406421234",
+		"national_number_pattern": "340(?:2(?:01|2[067]|36|44|77)|3(?:32|44)|4(?:4[38]|7[34])|5(?:1[34]|55)|6(?:26|4[23]|9[023])|7(?:[17]\\d|27)|884|998)\\d{4}",
+		"possible_number_pattern": "\\d{7}(?:\\d{3})?"
+	},
+	"national_prefix": "1",
+	"national_prefix_for_parsing": "1",
+	"national_prefix_transform_rule": "",
+	"no_international_dialling": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"pager": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"personal_number": {
+		"example_number": "5002345678",
+		"national_number_pattern": "5(?:00|33|44)[2-9]\\d{6}",
+		"possible_number_pattern": "\\d{10}"
+	},
+	"preferred_extn_prefix": "",
+	"preferred_international_prefix": "",
+	"premium_rate": {
+		"example_number": "9002345678",
+		"national_number_pattern": "900[2-9]\\d{6}",
+		"possible_number_pattern": "\\d{10}"
+	},
+	"same_mobile_and_fixed_line_pattern": true,
+	"shared_cost": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"toll_free": {
+		"example_number": "8002345678",
+		"national_number_pattern": "8(?:00|55|66|77|88)[2-9]\\d{6}",
+		"possible_number_pattern": "\\d{10}"
+	},
+	"uan": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voicemail": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voip": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"number_formats": [],
+	"intl_number_formats": []
+}

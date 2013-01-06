@@ -1,0 +1,99 @@
+{
+	"country_code": 371,
+	"emergency": {
+		"example_number": "112",
+		"national_number_pattern": "0[123]|112",
+		"possible_number_pattern": "\\d{2,3}"
+	},
+	"fixed_line": {
+		"example_number": "63123456",
+		"national_number_pattern": "6[3-8]\\d{6}",
+		"possible_number_pattern": "\\d{8}"
+	},
+	"general_desc": {
+		"example_number": "",
+		"national_number_pattern": "[2689]\\d{7}",
+		"possible_number_pattern": "\\d{8}"
+	},
+	"id": "LV",
+	"international_prefix": "00",
+	"leading_digits": "",
+	"leading_zero_possible": false,
+	"main_country_for_code": false,
+	"mobile": {
+		"example_number": "21234567",
+		"national_number_pattern": "2\\d{7}",
+		"possible_number_pattern": "\\d{8}"
+	},
+	"national_prefix": "",
+	"national_prefix_for_parsing": "",
+	"national_prefix_transform_rule": "",
+	"no_international_dialling": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"pager": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"personal_number": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"preferred_extn_prefix": "",
+	"preferred_international_prefix": "",
+	"premium_rate": {
+		"example_number": "90123456",
+		"national_number_pattern": "90\\d{6}",
+		"possible_number_pattern": "\\d{8}"
+	},
+	"same_mobile_and_fixed_line_pattern": false,
+	"shared_cost": {
+		"example_number": "81123456",
+		"national_number_pattern": "81\\d{6}",
+		"possible_number_pattern": "\\d{8}"
+	},
+	"toll_free": {
+		"example_number": "80123456",
+		"national_number_pattern": "80\\d{6}",
+		"possible_number_pattern": "\\d{8}"
+	},
+	"uan": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voicemail": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voip": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([2689]\\d)(\\d{3})(\\d{3})",
+			"leading_digit_patterns": []
+		}
+	],
+	"intl_number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([2689]\\d)(\\d{3})(\\d{3})",
+			"leading_digit_patterns": []
+		}
+	]
+}

@@ -1,0 +1,143 @@
+{
+	"country_code": 420,
+	"emergency": {
+		"example_number": "112",
+		"national_number_pattern": "1(?:12|5[058])",
+		"possible_number_pattern": "\\d{3}"
+	},
+	"fixed_line": {
+		"example_number": "212345678",
+		"national_number_pattern": "2\\d{8}|(?:3[1257-9]|4[16-9]|5[13-9])\\d{7}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"general_desc": {
+		"example_number": "",
+		"national_number_pattern": "[2-8]\\d{8}|9\\d{8,11}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"id": "CZ",
+	"international_prefix": "00",
+	"leading_digits": "",
+	"leading_zero_possible": false,
+	"main_country_for_code": false,
+	"mobile": {
+		"example_number": "601123456",
+		"national_number_pattern": "(?:60[1-8]|7(?:0[2-5]|[2379]\\d))\\d{6}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"national_prefix": "",
+	"national_prefix_for_parsing": "",
+	"national_prefix_transform_rule": "",
+	"no_international_dialling": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"pager": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"personal_number": {
+		"example_number": "700123456",
+		"national_number_pattern": "70[01]\\d{6}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"preferred_extn_prefix": "",
+	"preferred_international_prefix": "",
+	"premium_rate": {
+		"example_number": "900123456",
+		"national_number_pattern": "9(?:0[05689]|76)\\d{6}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"same_mobile_and_fixed_line_pattern": false,
+	"shared_cost": {
+		"example_number": "811234567",
+		"national_number_pattern": "8[134]\\d{7}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"toll_free": {
+		"example_number": "800123456",
+		"national_number_pattern": "800\\d{6}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"uan": {
+		"example_number": "972123456",
+		"national_number_pattern": "9(?:5[056]|7[234])\\d{6}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"voicemail": {
+		"example_number": "93123456789",
+		"national_number_pattern": "9(?:3\\d{9}|6\\d{7,10})",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"voip": {
+		"example_number": "910123456",
+		"national_number_pattern": "9[17]0\\d{6}",
+		"possible_number_pattern": "\\d{9,12}"
+	},
+	"number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([2-9]\\d{2})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"[2-8]|9[015-7]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3 $4",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(96\\d)(\\d{3})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"96"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3 $4",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(9\\d)(\\d{3})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"9[36]"
+			]
+		}
+	],
+	"intl_number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([2-9]\\d{2})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"[2-8]|9[015-7]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3 $4",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(96\\d)(\\d{3})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"96"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3 $4",
+			"national_prefix_formatting_rule": "",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(9\\d)(\\d{3})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"9[36]"
+			]
+		}
+	]
+}

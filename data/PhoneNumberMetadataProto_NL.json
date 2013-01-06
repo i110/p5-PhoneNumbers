@@ -1,0 +1,203 @@
+{
+	"country_code": 31,
+	"emergency": {
+		"example_number": "112",
+		"national_number_pattern": "112|911",
+		"possible_number_pattern": "\\d{3}"
+	},
+	"fixed_line": {
+		"example_number": "101234567",
+		"national_number_pattern": "(?:1[0135-8]|2[02-69]|3[0-68]|4[0135-9]|[57]\\d|8[478])\\d{7}",
+		"possible_number_pattern": "\\d{9}"
+	},
+	"general_desc": {
+		"example_number": "",
+		"national_number_pattern": "1\\d{4,8}|[2-7]\\d{8}|[89]\\d{6,9}",
+		"possible_number_pattern": "\\d{5,10}"
+	},
+	"id": "NL",
+	"international_prefix": "00",
+	"leading_digits": "",
+	"leading_zero_possible": false,
+	"main_country_for_code": false,
+	"mobile": {
+		"example_number": "612345678",
+		"national_number_pattern": "6[1-58]\\d{7}",
+		"possible_number_pattern": "\\d{9}"
+	},
+	"national_prefix": "0",
+	"national_prefix_for_parsing": "0",
+	"national_prefix_transform_rule": "",
+	"no_international_dialling": {
+		"example_number": "",
+		"national_number_pattern": "14\\d{3,4}",
+		"possible_number_pattern": "\\d{5,6}"
+	},
+	"pager": {
+		"example_number": "662345678",
+		"national_number_pattern": "66\\d{7}",
+		"possible_number_pattern": "\\d{9}"
+	},
+	"personal_number": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"preferred_extn_prefix": "",
+	"preferred_international_prefix": "",
+	"premium_rate": {
+		"example_number": "9001234",
+		"national_number_pattern": "90[069]\\d{4,7}",
+		"possible_number_pattern": "\\d{7,10}"
+	},
+	"same_mobile_and_fixed_line_pattern": false,
+	"shared_cost": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"toll_free": {
+		"example_number": "8001234",
+		"national_number_pattern": "800\\d{4,7}",
+		"possible_number_pattern": "\\d{7,10}"
+	},
+	"uan": {
+		"example_number": "14020",
+		"national_number_pattern": "140(?:1(?:[035]|[16-8]\\d)|2(?:[0346]|[259]\\d)|3(?:[03568]|[124]\\d)|4(?:[0356]|[17-9]\\d)|5(?:[0358]|[124679]\\d)|7\\d|8[458])",
+		"possible_number_pattern": "\\d{5,6}"
+	},
+	"voicemail": {
+		"example_number": "",
+		"national_number_pattern": "NA",
+		"possible_number_pattern": "NA"
+	},
+	"voip": {
+		"example_number": "851234567",
+		"national_number_pattern": "85\\d{7}",
+		"possible_number_pattern": "\\d{9}"
+	},
+	"number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([1-578]\\d)(\\d{3})(\\d{4})",
+			"leading_digit_patterns": [
+				"1[035]|2[0346]|3[03568]|4[0356]|5[0358]|7|8[458]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([1-5]\\d{2})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"1[16-8]|2[259]|3[124]|4[17-9]|5[124679]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(6)(\\d{8})",
+			"leading_digit_patterns": [
+				"6[0-57-9]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(66)(\\d{7})",
+			"leading_digit_patterns": [
+				"66"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(14)(\\d{3,4})",
+			"leading_digit_patterns": [
+				"14"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([89]0\\d)(\\d{4,7})",
+			"leading_digit_patterns": [
+				"80|9"
+			]
+		}
+	],
+	"intl_number_formats": [
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([1-578]\\d)(\\d{3})(\\d{4})",
+			"leading_digit_patterns": [
+				"1[035]|2[0346]|3[03568]|4[0356]|5[0358]|7|8[458]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2 $3",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([1-5]\\d{2})(\\d{3})(\\d{3})",
+			"leading_digit_patterns": [
+				"1[16-8]|2[259]|3[124]|4[17-9]|5[124679]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(6)(\\d{8})",
+			"leading_digit_patterns": [
+				"6[0-57-9]"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(66)(\\d{7})",
+			"leading_digit_patterns": [
+				"66"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "(14)(\\d{3,4})",
+			"leading_digit_patterns": [
+				"14"
+			]
+		},
+		{
+			"domestic_carrier_code_formatting_rule": "",
+			"format": "$1 $2",
+			"national_prefix_formatting_rule": "0$1",
+			"national_prefix_optional_when_formatting": false,
+			"pattern": "([89]0\\d)(\\d{4,7})",
+			"leading_digit_patterns": [
+				"80|9"
+			]
+		}
+	]
+}
